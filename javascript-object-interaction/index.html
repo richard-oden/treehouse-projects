@@ -1,0 +1,32 @@
+<head>
+    <title>Library Practice Session</title>
+    <script src = "Book.js"></script>
+    <script src = "Patron.js"></script>
+    <script src = "Library.js"></script>
+  </head>
+  
+  <body>
+    <h1>Library Practice Session Project</h1>
+    <h5>Right click and use the developer tools to see the console.</h5>
+  </body>
+  
+  <script>
+    // our test code here
+    let lib = new Library();
+    let book = new Book('A book', 'Jon Doe', 1234);
+    let patron = new Patron('Jimbo Johnson', 'jim.bo@jmail.net');
+    
+    lib.addBook(book);
+    lib.addPatron(patron);
+
+    patron.checkOut(book);
+    lib.chargeFines();
+
+    console.log(lib);
+    
+    
+    
+    
+    
+    
+  </script>
