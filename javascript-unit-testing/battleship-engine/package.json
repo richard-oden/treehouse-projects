@@ -1,0 +1,17 @@
+{
+  "name": "battleship-engine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main_test.js",
+  "dependencies": {
+    "chai": "^4.3.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.3.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
